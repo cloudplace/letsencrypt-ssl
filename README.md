@@ -18,5 +18,7 @@ certbot certonly \
     --work-dir ./workdir \
     -d cloudplace.io
     
+# Renew certificate
 
+certbot renew
 
