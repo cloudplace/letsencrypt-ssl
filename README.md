@@ -11,7 +11,7 @@ certbot certonly \
     --config-dir ./config \
     --logs-dir ./logs \
     --work-dir ./workdir \
-    -d cloudspace.io
+    -d cloudplace.io
     
 
 
