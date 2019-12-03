@@ -2,10 +2,10 @@
 letsencrypt ssl create and auto renew command and steps
 
 # Install certbot
-add-apt-repository ppa:certbot/certbot
-sudo add-apt-repository ppa:certbot/certbot
-sudo apt-get update
-sudo apt-get install python-certbot-nginx
+add-apt-repository ppa:certbot/certbot \
+sudo add-apt-repository ppa:certbot/certbot \
+sudo apt-get update \
+sudo apt-get install python-certbot-nginx \
 
 # Manual create certificate
 certbot certonly \
